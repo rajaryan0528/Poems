@@ -1,0 +1,61 @@
+body {
+    background:rgb(155,175,217);
+    background-image: linear-gradient(to left,#9bafd9,#103873);
+    color:black;
+    font-size: 20px;
+    font-weight: normal;
+   
+}
+
+a {
+    text-decoration: none;
+    color: darkgreen;
+
+}
+
+a:hover {
+    color:yellowgreen;
+}
+
+
+.poem{
+    background: rgb(155, 175, 217);
+
+    background-image: linear-gradient(to right, #9bafd9, #103873);
+    backdrop-filter: blur(10px);
+    font-family:Courier, monospace;
+    font-size: 20;
+    width: 80%;
+    margin: auto;
+    color:black;
+    border: 3px #103873 solid;
+    text-align: center;
+    padding-left: 0%;
+    padding-right: 0%;
+       
+}
+
+.poem-footer{
+    color:black;
+    font-family: cursive;
+    margin-left:150px;
+}
+
+.my-form{
+    padding:0;
+}
+
+.my-form input[type="text"],.my-form input[type="submit"],.my-form textarea {
+    font-family: 'Times New Roman', Times, serif;
+    background-color:lightslategray;
+    width:60%;
+    padding:10px;
+    margin-left:150px;
+
+}
+
+.my-form p{
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 150px;
+   
+}
